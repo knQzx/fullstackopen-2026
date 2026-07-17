@@ -6,6 +6,7 @@ const Part = ({ part }) => (
   </p>
 )
 
+// i used map, if it's not allowed i can change it to parts[0..2]
 const Content = ({ parts }) => (
   <div>
     {parts.map((part) => (
